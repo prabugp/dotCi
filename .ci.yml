@@ -1,0 +1,5 @@
+image: ubuntu #name of image to run the build against
+#run_params: "-e PASSWORD=moew"  
+command:
+  - mvn setup
+  - mvn test
