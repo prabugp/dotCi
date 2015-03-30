@@ -2,6 +2,6 @@
 build:
   info:
     - java -version
-  run: mvn-test
-  after: echo "yay!"
+run: mvn-test
+after: echo "yay!"
     
