@@ -5,7 +5,3 @@ build:
   - java -version
   run: mvn-test
   after: echo "yay!"
-
-function install_packages(){
-echo "installed stuff"
-}    
