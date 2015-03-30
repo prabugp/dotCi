@@ -1,7 +1,7 @@
 #comments
 build:
   info:
-    - java -version
-run: mvn-test
-after: echo "yay!"
+  - java -version
+  run: mvn-test
+  after: echo "yay!"
     
