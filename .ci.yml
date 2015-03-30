@@ -1,6 +1,11 @@
+environment:
+  language: java
 build:
   info:
   - java -version
   run: mvn-test
   after: echo "yay!"
-    
+
+function install_packages(){
+echo "installed stuff"
+}    
