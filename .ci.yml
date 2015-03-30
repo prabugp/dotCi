@@ -4,5 +4,6 @@ environment:
 build:
   info:
   - java -version
-  run: mvn-test
+  run: 
+    unit: mvn-test
   after: echo "yay!"
