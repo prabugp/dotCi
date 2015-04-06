@@ -6,4 +6,4 @@ build:
   - java -version
   run: 
     unit: mvn-test
-  after: echo "yay! checking again"
+  after: echo "yay! checking again."
